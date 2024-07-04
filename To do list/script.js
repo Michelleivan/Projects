@@ -20,8 +20,6 @@ function createListElement() {
         li.classList.toggle("done");
     })
     
-
-
     var delButton = document.createElement("button");
     var delX = document.createElement("i");
         delButton.appendChild(document.createTextNode("X"));
@@ -46,8 +44,6 @@ function createListElement() {
                     createListElement();
                 }
             }
-
-
 
 button.addEventListener("click", addListAfterClick);
 
