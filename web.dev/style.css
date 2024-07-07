@@ -1,0 +1,308 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* -------------------------------------- NAVIGATION & LOGO ------------------------- */
+/* ........ container .........  */
+.nav-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+}
+
+.nav-input{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+
+/* ------------ Logo --------------- */
+.logo-con{
+    width: 22em;
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ...........logo sizing............ */
+.logo{
+    width: 181.41px;
+}
+
+/* ------------------------------------------- Nav items ---------------------------- */
+
+/* ........ Nav First Container ......... */
+.nav-items{
+    width: 90em;
+    display: flex;
+    list-style: none;
+}
+
+/* ----------Navigation Input------------ */
+.nav-li{
+    margin-left: 20px;
+    padding: 0px 0px 0px 26px;
+    font-size: 0.9em;
+    gap: 2px;
+    color:#5f6368;
+    text-decoration: none;
+}
+
+/* .................................... Search Tab & Sign in button ....................... */
+
+/* --------- Second Nav Container -------- */
+.nav-sec{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    margin-inline-start: 30px;
+    width: 60%;
+    gap: 10px;
+}
+
+/* ---------------search button--------------- */
+.search-button{
+    border-radius: 30px;
+    width: 200px;
+    height: 38px;
+    border-style: none;
+    background-color: #f6f6f7;
+}
+
+/* ---------------Language button---------------- */
+.label{
+    width: 112px;
+    height: 38px;
+    
+}
+/* ----------------Sign in Button---------------- */
+.signin-btn{
+    width:62px;
+    color: #434446;
+    text-decoration: none;
+    padding: 0px 8px ;
+}
+
+/* ------------------------------------------Banner Message-------------------------------- */
+.frst-message{
+    display: flex;
+    align-items: center;
+    background-color: #0f51e0e7;
+    height: 72px;
+    font-size: 16px;
+    padding: 0px 24px 0px 24px;
+    color: #f5f6f7;
+}
+
+.scnd-message{
+    display: flex;
+    align-items: center;
+    color: #002574;
+    height: 64px;
+    font-size:14px ;
+    padding: 0px 24px 0px 24px;
+    background-color: #e8f0feb7;
+    padding-inline-start: 220px;
+}
+
+/* -------------------------------------------Article Section----------------------------- */
+
+/* -----------------------------------first-section------------------------------- */
+
+/* -------------------Section Container--------------------- */
+.frst{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+}
+
+.first-container{
+    width: 1232px ;
+    display: flex;
+}
+.section1{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+
+}
+.title-box{
+    font-size: 64px ;
+    color: black;
+    text-decoration: none;
+    height: 152px;
+    padding: 0px 0px 32px;
+}
+
+.text-box{
+    font-size: 20px;
+    height: 120px;
+}
+
+/* ------------Button Container---------------- */
+
+/* ---------Button Container-------- */
+.button-box{
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0px 0px;
+    margin: 24px 0px -8px -12px;
+}
+
+/* ------------button-------------- */
+.frst-button{
+    width: 203px;
+    height:48px;
+    border-radius: 30px;
+    border-color: #1A73E8;
+    background-color: white;
+} 
+
+/* -----------link in button----------- */
+.link-btn{
+    color: #1A73E8;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 200;
+
+}
+/* ---------------- Image Container ----------------- */
+
+/* ----------img box------------ */
+.img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------image setting----------- */
+.frst-image{
+    width:508px;
+    height: 299.16px;
+}
+
+/* ----------------------------------Second Section------------------------------ */
+
+/* ------------------ Section Container----------------------- */
+.scnd{
+    background-color: #F5F6F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1880px;
+    height: 803px;
+    
+}
+
+.scnd-container{
+    width: 1232px;
+    height: 723px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* ------------------------First Div---------------------- */
+
+/* .............div container.............. */
+.first-container2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 604px;
+    height:723px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* .......................First Image Settings..................... */
+
+/* ---------image sizing----------- */
+.frst-img1{
+    width: 540px;
+    height: 303px;
+    border-radius: 20px;
+}
+
+/* ------------First Div Text Box----------------- */
+
+/* .......text container........ */
+.text-box2{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------------------------Title setting Div 1------------------- */
+
+/* --------------------Title container----------------- */
+.title-box2{
+    width: 540px;
+    height:40px;
+    font-size: 32px;
+    text-decoration: none;
+    display: flex;
+    color: black;
+}
+
+/* ----------H3 Setting------------- */
+.title-cont1{
+    width: 489px;
+    height: 40px;
+}
+
+/* ------------Paragraph2 first Setting---------------- */
+.prcon-1{
+    width: 540px;
+    height:72px
+}
+.paragraph2-first{
+    display: flex;
+    font-size: 16px;
+}
+
+/* ---------------Button Container------------------------ */
+
+/* -----------Button Box------------- */
+.button-box{
+    width: 552px;
+    height:72px;
+}
+
+/* ----------button setting------------ */
+.button1-setting{
+    width:171.48px;
+    height:48px;
+    border-radius: 30px;
+    border-color: #1A73E8;
+    color: #1A73E8;
+    background-color: white;
+}
+/* -----------------------Second Div------------------------ */
+
+/* ...........div container.................. */
+.second-container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 604px;
+    height: 723px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.scnd-img2{
+    width: 540px;
+    height: 303px;
+}
